@@ -53,6 +53,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // --- 3. LÓGICA DE ENVIO DE E-MAILS COM PHPMailer ---
   $mail = new PHPMailer(true);
 
+  $mail->SMTPDebug = 2; // O valor 2 mostra a conversa completa.
+
   try {
     // --- A. Configuração do Servidor SMTP ---
     $mail->isSMTP();
