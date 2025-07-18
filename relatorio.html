@@ -231,11 +231,11 @@
 
         // Define propriedades específicas para certas colunas
         "columnDefs": [
-            {
-                "targets": [ 0, 4 ], // Oculta a coluna 0 (ID) e a coluna 4 (CNPJ/CPF)
-                "visible": false,
-                "searchable": false // Opcional: também impede que a busca global encontre dados nessas colunas
-            }
+          {
+            "targets": [0, 4], // Oculta a coluna 0 (ID) e a coluna 4 (CNPJ/CPF)
+            "visible": false,
+            "searchable": false // Opcional: também impede que a busca global encontre dados nessas colunas
+          }
         ],
 
         // AQUI A MÁGICA: Traduz a interface para Português do Brasil
@@ -243,8 +243,8 @@
           "url": "https://cdn.datatables.net/plug-ins/2.0.8/i18n/pt-BR.json"
         },
 
-        "pagingType": "simple_numbers",
-        
+        "pagingType": "full_numbers",
+
         // Define a ordenação inicial pela coluna de ID (coluna 0), em ordem decrescente
         "order": [[0, "desc"]],
 
@@ -255,6 +255,12 @@
       });
     });
   </script>
+
+  <style>
+    .paging_full_numbers {
+      min-width: 260px;
+    }
+  </style>
 
 </body>
 
