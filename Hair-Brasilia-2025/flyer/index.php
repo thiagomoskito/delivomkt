@@ -68,7 +68,7 @@
               <div class="de-flex-col">
                 <!-- logo begin -->
                 <div id="logo">
-                  <a href="index.php">
+                  <a href="../../index.php">
                     <img class="logo-main" src="../../images/logo.png" alt="">
                     <img class="logo-scroll" src="../../images/logo.png" alt="">
                     <img class="logo-mobile" src="../../images/logo.png" alt="">
@@ -90,7 +90,7 @@
               </div>
 
               <div class="de-flex-col">
-                <a class="btn-main fx-slide w-100" href="index.php#section-cadastro"><span>Pré cadastro</span></a>
+                <a class="btn-main fx-slide w-100" href="../../index.php#section-cadastro"><span>Pré cadastro</span></a>
 
 
               </div>
@@ -160,7 +160,9 @@
               <div class="post-text text-center ajustaImg">
 
                 <h5>Flyer - frente</h5>
-                <img src="../../images/background/flyer_delivo_frente.png" class="jarallax-img" alt="flyer delivo frente">
+                <div class="gallery">
+                <img src="flyer_delivo_frente.png" class="jarallax-img gallery-img" alt="flyer delivo frente">
+                </div>
 
                 <h6>Para a gráfica<h6><br>
                     <a href="CMYK_flyer_delivo_frente.tif" class="sublinhado" download>Baixar - CMYK - frente</a>
@@ -174,7 +176,9 @@
               <div class="post-text text-center ajustaImg">
 
                 <h5>Flyer - verso</h5>
-                <img src="../../images/background/flyer_delivo_verso.png" class="jarallax-img" alt="flyer delivo verso">
+                <div class="gallery">
+                <img src="flyer_delivo_verso.png" class="jarallax-img gallery-img" alt="flyer delivo verso">
+                </div>
 
                 <h6>Para a gráfica<h6><br>
                     <a href="CMYK_flyer_delivo_verso.tif" class="sublinhado" download>Baixar - CMYK - verso</a>
@@ -261,6 +265,8 @@
       observer.observe(element);
     });
   </script>
+
+  <?php require '../../_lbox.php'; ?>
 
 </body>
 

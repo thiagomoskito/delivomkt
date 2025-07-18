@@ -68,7 +68,7 @@
               <div class="de-flex-col">
                 <!-- logo begin -->
                 <div id="logo">
-                  <a href="index.php">
+                  <a href="../../index.php">
                     <img class="logo-main" src="../../images/logo.png" alt="">
                     <img class="logo-scroll" src="../../images/logo.png" alt="">
                     <img class="logo-mobile" src="../../images/logo.png" alt="">
@@ -90,7 +90,7 @@
               </div>
 
               <div class="de-flex-col">
-                <a class="btn-main fx-slide w-100" href="index.php#section-cadastro"><span>Pré cadastro</span></a>
+                <a class="btn-main fx-slide w-100" href="../../index.php#section-cadastro"><span>Pré cadastro</span></a>
 
 
               </div>
@@ -101,7 +101,7 @@
     </header>
 
     <section id="salao" class="section-dark no-top no-bottom text-light jarallax relative mh-500 jarallax">
-      <img src="../../images/background/5.jpg" class="jarallax-img" alt="">
+      <img src="../../images/background/2.jpg" class="jarallax-img" alt="">
       <div class="gradient-edge-bottom h-50"></div>
       <div class="sw-overlay op-5"></div>
       <div class="abs bottom-10 z-2 w-100">
@@ -110,7 +110,7 @@
             <div class="col-lg-10">
               <div class="subtitle wow fadeInUp mb-3">Peças publicitárias</div>
               <h1 class="text-start fs-48 fs-sm-10vw wow fadeIn" data-wow-delay=".6s">
-                Material gráfico de divulgação
+                Material gráfico para o estande
               </h1>
 
             </div>
@@ -130,54 +130,66 @@
 
       <div class="container">
         <div class="row g-4 justify-content-center">
+
+          <div class="col-lg-3">
+            <div class="blog-read">
+              <div class="post-text text-center ajustaImg">
+
+                <h5>Adesivo - Delivo</h5>
+                <div class="gallery">
+                  <img src="logo_delivo.jpg" class="jarallax-img gallery-img" alt="adesivo - Delivo">
+                </div>
+
+                <a href="logo_delivo.pdf" class="sublinhado" download>Baixar - PDF-X1a</a><br>
+                <a href="logo_delivo.cdr" class="sublinhado" download>Baixar - CorelDraw</a><br>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="blog-read">
+              <div class="post-text text-center ajustaImg">
+
+                <h5>Adesivo - Truvô</h5>
+                <div class="gallery">
+                  <img src="logo_truvo.jpg" class="jarallax-img gallery-img" alt="adesivo - Truvô">
+                </div>
+
+                <a href="logo_truvo.pdf" class="sublinhado" download>Baixar - PDF-X1a</a><br>
+                <a href="logo_truvo.cdr" class="sublinhado" download>Baixar - CorelDraw</a><br>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="blog-read">
+              <div class="post-text text-center ajustaImg">
+
+                <h5>Cobre Bag</h5>
+                <div class="gallery">
+                  <img src="cobre-bag.jpg" class="jarallax-img gallery-img" alt="cobre-bag">
+                </div>
+
+                <a href="cobre-bag.pdf" class="sublinhado" download>Baixar - PDF-X1a</a><br>
+                <a href="cobre-bag.cdr" class="sublinhado" download>Baixar - CorelDraw</a><br>
+
+              </div>
+            </div>
+          </div>
+
           <div class="col-lg-10">
             <div class="blog-read">
-
-              <div class="post-text">
-
-                <h5>Flyer</h5>
-
-                <ul class="ul-check mb-25">
-                  <li>
-                    <strong>Público alvo:</strong> profissionais da industria, fornecedores e fabricantes de cosméticos, proprietários e colaboradores de salão de beleza e profissionais autônomos, e consumidor final.
-                  </li>
-                  <li>
-                    <strong>Circulação:</strong> de 20 a 22 de julho de 2025, nas mediações e dentro da Hair Brasília and Beauty 2025.
-                  </li>
-                  <li>
-                    <strong>Tiragem:</strong> 5 mil exemplares.
-                  </li>
-                </ul>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-5">
-            <div class="blog-read">
               <div class="post-text text-center ajustaImg">
 
-                <h5>Flyer - frente</h5>
-                <img src="../../images/background/flyer_delivo_frente.png" class="jarallax-img" alt="flyer delivo frente">
+                <h5>Testeira / Faxada</h5>
+                <div class="gallery">
+                  <img src="testeira.jpg" class="jarallax-img gallery-img" alt="cobre-bag">
+                </div>
 
-                <h6>Para a gráfica<h6><br>
-                    <a href="CMYK_flyer_delivo_frente.tif" class="sublinhado" download>Baixar - CMYK - frente</a>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-5">
-            <div class="blog-read">
-              <div class="post-text text-center ajustaImg">
-
-                <h5>Flyer - verso</h5>
-                <img src="../../images/background/flyer_delivo_verso.png" class="jarallax-img" alt="flyer delivo verso">
-
-                <h6>Para a gráfica<h6><br>
-                    <a href="CMYK_flyer_delivo_verso.tif" class="sublinhado" download>Baixar - CMYK - verso</a>
+                <a href="testeira.pdf" class="sublinhado" download>Baixar - PDF-X1a</a><br>
+                <a href="testeira.cdr" class="sublinhado" download>Baixar - CorelDraw</a><br>
 
               </div>
             </div>
@@ -261,6 +273,8 @@
       observer.observe(element);
     });
   </script>
+
+  <?php require '../../_lbox.php'; ?>
 
 </body>
 
