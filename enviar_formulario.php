@@ -100,25 +100,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <tr><td style='padding: 20px;'>
                             <h2>Novo cadastro recebido pelo site:</h2>
                         </td></tr>
-                        <tr><td style='padding: 20px;'>
+                        <tr><td style='padding: 3px;'>
                             <p><strong>Data:</strong> " . date("d/m/Y H:i:s") . "</p>
                         </td></tr>
-                        <tr><td style='padding: 20px;'>
+                        <tr><td style='padding: 3px;'>
                             <p><strong>Tipo:</strong> {$tipo}</p>
                         </td></tr>
-                        <tr><td style='padding: 20px;'>
+                        <tr><td style='padding: 3px;'>
                             <p><strong>Nome/Razão Social:</strong> {$nome_razao}</p>
                         </td></tr>
-                        <tr><td style='padding: 20px;'>
+                        <tr><td style='padding: 3px;'>
                             <p><strong>CNPJ/CPF:</strong> {$cnpj_cpf}</p>
                         </td></tr>
-                        <tr><td style='padding: 20px;'>
+                        <tr><td style='padding: 3px;'>
                             <p><strong>Endereço:</strong> {$endereco}</p>
                         </td></tr>
-                        <tr><td style='padding: 20px;'>
+                        <tr><td style='padding: 3px;'>
                             <p><strong>E-mail:</strong> {$email}</p>
                         </td></tr>
-                        <tr><td style='padding: 20px;'>
+                        <tr><td style='padding: 3px;'>
                             <p><strong>Celular:</strong> {$celular}</p>
                         </td></tr>
                     </table>
