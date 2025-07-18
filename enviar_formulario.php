@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // --- 3. LÓGICA DE ENVIO DE E-MAILS COM PHPMailer ---
   $mail = new PHPMailer(true);
 
-  $mail->SMTPDebug = 2; // O valor 2 mostra a conversa completa.
+  //$mail->SMTPDebug = 2; // O valor 2 mostra a conversa completa.
 
   try {
     // --- A. Configuração do Servidor SMTP ---
@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->setFrom('contato@delivomkt.com.br', 'Delivo MKT');
 
     // Destinatário Fixo (Sempre recebe)
-    $mail->addAddress('thiago.moskito@delivomkt.com.br', 'Moskito (Admin)');
+    $mail->addAddress('thiago.moskito@delivo.com.br', 'Moskito (Admin)');
 
     // Destinatários Condicionais
     if ($tipo === 'Salão de beleza' || $tipo === 'Profissional autônomo') {
